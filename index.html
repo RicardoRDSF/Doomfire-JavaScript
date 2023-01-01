@@ -8,7 +8,23 @@
     <title>Doom Fire Effect</title>
 </head>
 <body>
-    <div id="fireCanvas"></div>
+    <div class="center">
+        <div id="fireCanvas"></div>
+        <div class="margin">
+            <button onclick="decreaseFireSource()">-</button>
+            <button onclick="destroyFireSource()">Turn off</button>
+            <button onclick="createFireSource()">Turn on</button>
+            <button onclick="increaseFireSource()">+</button>
+          </div>
+          <div class="margin">
+            <button onclick="toggleDebugMode()">Toggle Debug Mode</button>
+          </div>
+    </div>
+    <div class="information">
+        <h1>Link para tutorial feito por Filipe Deschamps:</h1>
+        <a href="http://www.youtube.com/watch?v=fxm8cadCqbs" target="_blank">www.youtube.com/watch?v=fxm8cadCqbs"</a>
+        <h3>Faça você também! Vale a pena.</h3>
+    </div>
     <script src="fire.js"></script>
 </body>
 </html>

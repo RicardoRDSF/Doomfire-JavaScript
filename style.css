@@ -1,5 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+#fireCanvas{
+    margin: 10px;
+}
+html{
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: #4a4c4a;
+}
+h1{
+    color: #999;
+}
+a{
+    text-decoration: none;
+    color: #1d1d1b;
+}
+a:hover{
+    transition: 0.8s ease;
+    color: #999;
+}
+h3{
+    color: #999;
+}
 table{
     border-collapse: collapse;
+    margin: 0 auto;
     border: 1px solid #000;
 }
 
@@ -18,7 +43,6 @@ td.pixel{
     height: 4px;
     border: 0;
 }
-
 .pixel-index{
     font-size: 10px;
     display: inline-block;
@@ -26,4 +50,14 @@ td.pixel{
     top: 2px;
     right: 2px;
     color: #999;
+}
+
+.center{
+    text-align: center;
+    background-color: #1d1d1b;
+    box-shadow: 0 -1px 20px #000;
+    border-radius: .5rem;
+}
+.information{
+    text-align: center;
 }
